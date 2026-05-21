@@ -18,7 +18,7 @@
             if opcao < 1 or opcao > 7:
                 print('[ERRO!] Opção inválida. Por favor, escolha um número entre 1 e 7.')
                 continue
-        except (ValueError, SyntaxError):
+        except ValueError:
             print('[ERRO!] Digite apenas números para escolher uma opção.')
             continue
     
